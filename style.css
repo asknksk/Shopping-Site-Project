@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(247, 247, 247);
+  font-size: 1.2rem;
+}
+header {
+  height: 100px;
+  background-color: rgb(105, 208, 41);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+h1 {
+  padding: 20px;
+  letter-spacing: 5px;
+}
+
+/* .container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+} */
+a {
+  color: #000;
+}
+table.shopping {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+table.shopping td,
+table.shopping th {
+  padding: 0.4rem;
+}
+table.shopping tr td:nth-child(6) {
+  text-align: center;
+}
+table.shopping tr td a:nth-child(1) {
+  margin-right: 0.7rem;
+}
+
+table tfoot,
+table thead {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgb(158, 158, 158);
+}
+table tbody tr:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+table tbody tr.bg {
+  background-color: rgb(82, 78, 78);
+  color: white;
+}
+table tbody td:nth-child(3) {
+  text-align: center;
+}
+table tfoot,
+table tbody td:nth-child(4),
+table tbody td:nth-child(5) {
+  text-align: right;
+}
+div.buton {
+  width: 85%;
+  text-align: right;
+  margin-top: 1rem;
+}
+div.buton button {
+  background-color: tomato;
+  font-size: 1.1rem;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border: 0;
+  height: 3rem;
+  cursor: pointer;
+}
+div.buton button i {
+  color: rgb(59, 59, 59);
+}
