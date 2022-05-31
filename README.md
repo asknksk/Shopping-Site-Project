@@ -2,7 +2,7 @@
 
 # Project Preview
 
-![Alt Text]()
+![Alt Text](https://github.com/asknksk/Shopping-Site-Project/blob/master/Preview.PNG)
 
 ## Project Link
 
